@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Raw / generated data
+data/
+input/
+
+# Trained models
+models/
+
+# Jupyter
+.ipynb_checkpoints/
