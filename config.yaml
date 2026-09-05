@@ -1,0 +1,41 @@
+# ============================================================
+# Model A project configuration (Person A's pipeline)
+#
+# This is separate from company_provided/config.yaml, which controls
+# the company's data GENERATOR and must not be modified. This file
+# configures how Model A's code (src/) reads the already-generated
+# files and what it treats as feature/target/id columns.
+# Paths are relative to the repo root — run scripts from there.
+# ============================================================
+
+data:
+  train_path: company_provided/input/train.csv
+  test_path: company_provided/input/test.csv
+  validation_path: company_provided/input/validation.csv
+
+model_a:
+  # Die-level parametric features: feature_1 .. feature_500
+  feature_prefix: "feature_"
+  num_features: 500
+
+  # Spatial coordinates (used directly, and as basis for future spatial features)
+  spatial_columns: [die_row, die_col]
+
+  # Non-feature identifier columns, kept only for grouping / output reconstruction
+  id_columns: [wafer_id, die_row, die_col]
+
+  # Column defining pre-test status. Rows with this == 0 are the eligible
+  # population for Model A. This column is dropped from X: it is constant
+  # (0) across the eligible population by construction, so it carries no
+  # signal for the classifier, but it is required to build the eligibility
+  # filter and, later, to trivially assign predicted_label=1 to old_label==1
+  # dies at submission time.
+  eligibility_column: old_label
+  eligibility_value: 0
+
+  # Prediction target (post-test status). Restricted to the eligible
+  # population, this is equivalent to "newly failed".
+  target_column: label
+
+  # Explicitly out of scope for Model A (Model B territory / not a feature)
+  excluded_columns: [block_readings]
