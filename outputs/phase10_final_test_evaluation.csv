@@ -1,0 +1,2 @@
+n_features,threshold,random_state,n_train_eligible,n_test_total_rows,n_test_eligible_old_label_0,n_test_excluded_old_label_1,confusion_sum_tp_fp_fn_tn,sanity_check_passed,tp,fp,fn,tn,overall_accuracy,pass_accuracy_recall,fail_accuracy_recall,pass_precision,fail_precision,pass_f1,fail_f1,roc_auc,pr_auc
+502,0.42,42,154037,39351,32598,6753,32598,True,509,24,871,31194,0.9725443278728756,0.9992312127618681,0.36884057971014494,0.9728364260096679,0.9549718574108818,0.9858571812335065,0.5321484579194983,0.8590330411384736,0.5273516705455241
