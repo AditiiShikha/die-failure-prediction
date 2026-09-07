@@ -1,0 +1,21 @@
+note,feature_1,feature_2,correlation,abs_correlation
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_401,feature_445,0.013053677290253285,0.013053677290253285
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_310,feature_402,0.012953615343232062,0.012953615343232062
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_245,feature_396,0.012777318113938797,0.012777318113938797
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_80,feature_370,-0.012463544226359638,0.012463544226359638
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_464,feature_472,0.012319401641844687,0.012319401641844687
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_237,feature_456,-0.01230092232268663,0.01230092232268663
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_33,feature_397,0.012209727366378577,0.012209727366378577
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_164,feature_348,-0.012062094470897683,0.012062094470897683
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_77,feature_379,0.012060542639681924,0.012060542639681924
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_404,feature_461,0.012032925735858471,0.012032925735858471
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_109,feature_397,0.01197649177664701,0.01197649177664701
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_298,feature_312,0.01194064179118987,0.01194064179118987
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_21,feature_252,0.011933669052933454,0.011933669052933454
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_235,feature_351,-0.011847889362954724,0.011847889362954724
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_143,feature_246,-0.011810006268717876,0.011810006268717876
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_100,feature_495,-0.011720745008163997,0.011720745008163997
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_269,feature_309,-0.01166051948757385,0.01166051948757385
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_149,feature_486,0.011607777403510612,0.011607777403510612
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_286,feature_348,0.011488557368827269,0.011488557368827269
+no pair reached |r|>=0.5; showing top 20 by |r| instead,feature_57,feature_245,0.011426819027224868,0.011426819027224868

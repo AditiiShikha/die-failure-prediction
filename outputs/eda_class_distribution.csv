@@ -1,0 +1,2 @@
+n_eligible_dies,n_pass,n_fail,fail_pct,pass_pct,pass_fail_ratio,predict_all_pass_accuracy,no_skill_pr_auc_baseline
+154037,147518,6519,4.232100079850945,95.76789992014906,22.628930817610062,0.9576789992014906,0.04232100079850945

@@ -1,0 +1,11 @@
+edge_decile,mean_edge_proximity,n_true_fail,fn_rate,metric
+0,0.19293379720309176,140.0,0.6214285714285714,fn_rate_by_edge_proximity_decile
+1,0.3715021167171322,150.0,0.6533333333333333,fn_rate_by_edge_proximity_decile
+2,0.47989280374767995,160.0,0.60625,fn_rate_by_edge_proximity_decile
+3,0.5563133175230163,116.0,0.6206896551724138,fn_rate_by_edge_proximity_decile
+4,0.6255557142447622,144.0,0.6180555555555556,fn_rate_by_edge_proximity_decile
+5,0.6830456921891755,142.0,0.5704225352112676,fn_rate_by_edge_proximity_decile
+6,0.7390193972325776,119.0,0.6974789915966386,fn_rate_by_edge_proximity_decile
+7,0.8053935454883708,175.0,0.6457142857142857,fn_rate_by_edge_proximity_decile
+8,0.8651881488931606,96.0,0.6458333333333334,fn_rate_by_edge_proximity_decile
+9,0.9478874705234243,138.0,0.644927536231884,fn_rate_by_edge_proximity_decile

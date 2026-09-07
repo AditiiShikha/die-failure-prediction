@@ -1,0 +1,9 @@
+predicted_proba,count,group
+"[0.00,0.05) high-confidence miss",444,FN
+"[0.05,0.15)",303,FN
+"[0.15,0.30)",108,FN
+"[0.30,0.42) near-miss",16,FN
+"[0.42,0.55) near-miss",15,FP
+"[0.55,0.70)",6,FP
+"[0.70,0.85)",3,FP
+"[0.85,1.00] high-confidence false alarm",0,FP
